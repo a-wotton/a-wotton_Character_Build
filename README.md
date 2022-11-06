@@ -1,4 +1,4 @@
-# Breaking Bad Character Build
+# Star Wars Character Build
 TODO: Write a project description
 ## Installation
 TODO: Describe the installation process
