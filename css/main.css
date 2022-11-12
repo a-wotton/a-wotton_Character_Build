@@ -13,7 +13,8 @@ body {
   font-family: sans-serif;
   background-color: black;
   color: white;
-  background-image: url('../images/denim.png');
+  background-image: url('../images/images_SW/ds_texture.jpg');
+  background-size: 300px 300px;
 }
 
 /* style the header */
@@ -23,6 +24,23 @@ header {
     top: 0;
     text-align: center;
     border-bottom: solid yellow 6px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.lightbox h3 {
+    font-size: 32px;
+    text-align: center;
+    border-bottom: solid yellow 4px;
+    border-radius: 10%;  
+    padding-bottom: 10px;
+}
+
+article p {
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #main-logo {
@@ -82,10 +100,15 @@ header {
 
 .info {
     padding: 20px;
+    background-color: rgb(110, 110, 110);
+    object-position: center;
+    width: 40vw;
+    align-items: center;
+    margin-left: 30vw;
 }
 
 .info h3 {
-    font-size: 2em;
+    font-size: 1.2em;
     text-align: center;
     margin-bottom: 14px;
 }
@@ -174,7 +197,26 @@ footer {
 }
 
 #lightBox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
+    background-image: url('../images/images_SW/leia-lb.png');
+    background-size: 35vh;
+}
+
+#lightBox3 {
+    background-image: url('../images/images_SW/solo-lb.png');
+    background-size: 80vh;
+}
+
+#lightBox4 {
+    background-image: url('../images/images_SW/chewy-lb.png');
+}
+
+#lightBox5 {
+    background-image: url('../images/images_SW/kenobi-lb.png');
+}
+
+#lightBox6 {
+    background-image: url('../images/images_SW/vader-lb.png');
+    background-size: 60vh;
 }
 
 .lightbox:target {
